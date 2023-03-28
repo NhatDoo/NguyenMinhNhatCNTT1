@@ -1,0 +1,33 @@
+#include <iostream>
+
+using namespace std;
+
+struct ngaythangnam
+{
+	int n;
+	int t;
+	int nm;
+};
+typedef struct ngaythangnam ntn;
+
+void nhap(ntn &ntn)
+{
+	cout << " nhap ngay";
+	cin >> ntn.n;
+	cout << " nhap thang";
+	cin >> ntn.t;
+	cout << " nhap nam";
+	cin >> ntn.nm;
+}
+void xuat(ntn &ntn)
+{
+	cout << ntn.n << "/" << ntn.t << "/" << ntn.nm;
+}
+int main() 
+{
+	ngaythangnam ntn;
+	nhap(ntn);
+	xuat(ntn);
+	return 0;
+
+}
