@@ -13,3 +13,4 @@ int main() {
   cin>>n;
   int kq = factorial(n);//gọi hàm factorial() để tính giai thừa cho n và gán kết quả vào biến kq
   cout<<"\nKết quả \n"<<n<<"! = "<<kq;
+}
