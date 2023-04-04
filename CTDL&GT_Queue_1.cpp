@@ -1,3 +1,4 @@
+https://gochocit.com/ky-thuat-lap-trinh/hang-doi-queue-la-gi-cach-xay-dung-hang-doi
 #include <iostream>
 using namespace std;
 
