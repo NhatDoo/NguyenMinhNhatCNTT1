@@ -20,7 +20,12 @@ void Quick_Sort(int a[], int left, int right){
 		Quick_Sort(a, i, right);
 	}
 }
-
+void swap(int &a ,int &b)
+{
+	int x = a;
+	a = b;
+	b = x;
+}
 void main()
 {
 	int a[5] = {8, 4, 1, 6, 5};
