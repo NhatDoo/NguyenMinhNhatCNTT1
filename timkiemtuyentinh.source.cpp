@@ -1,3 +1,4 @@
+//https://youtu.be/r6XD86awquI//
 #include <iostream>
 using namespace std;
 #define max 100
